@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Orbit : MonoBehaviour
 {
-    [SerializeField] Transform rotatePoint;
-    [SerializeField] Vector3 axis = Vector3.up;
-    [SerializeField] float radius;
-    [SerializeField] float radiusSpeed;
-    [SerializeField] float rotationSpeed;
+    public Transform rotatePoint;
+    public Vector3 axis = Vector3.up;
+    public float radius;
+    public float radiusSpeed;
+    public float rotationSpeed;
 
     // Start is called before the first frame update
     void Start()
